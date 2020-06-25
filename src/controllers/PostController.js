@@ -14,6 +14,8 @@ module.exports = {
         
         return res.json(post);
     },
+    //ta logando algo no seu terminal?
+    // vou mandar no dc
     async store(req, res){
         const post = await Post.create(req.body);
 
